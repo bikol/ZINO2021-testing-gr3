@@ -18,11 +18,21 @@ public class ArtymetykaTest {
     }
 
     @Test
-    public void testMnozenie() {
-        System.out.println("mnozenie");
+    public void testMnozenie1() {
+        System.out.println("mnozenie1");
         String a = "1";
         String b = "1";
         String expResult = "1";
+        String result = Artymetyka.mnozenie(a, b);
+        assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testMnozenie2() {
+        System.out.println("mnozenie2");
+        String a = "1";
+        String b = "0";
+        String expResult = "0";
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
