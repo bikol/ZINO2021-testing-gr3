@@ -12,7 +12,7 @@ package pl.edu.amu.wmi.bikol.dino.artymetyka;
 public class Artymetyka {
     
     public static String mnozenie(String a, String b){
-        return "1";
+        return b;
     }
     
 }
