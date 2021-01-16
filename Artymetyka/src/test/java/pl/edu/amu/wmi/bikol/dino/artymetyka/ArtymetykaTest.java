@@ -36,16 +36,6 @@ public class ArtymetykaTest {
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
-
-    @Test
-    public void testDodawanie1() {
-        System.out.println("dodawanie1");
-        String a = "1";
-        String b = "1";
-        String expResult = "2";
-        String result = Artymetyka.dodawanie(a, b);
-        assertEquals(expResult, result);
-    }
     
     @Test
     public void testMnozenie3() {
@@ -53,6 +43,16 @@ public class ArtymetykaTest {
         String a = "-1";
         String b = "-1";
         String expResult = "1";
+        String result = Artymetyka.mnozenie(a, b);
+        assertEquals(expResult, result);
+    }
+
+    @Test
+    public void testMnozenie4() {
+        System.out.println("mnozenie3");
+        String a = "1.1";
+        String b = "1.1";
+        String expResult = "1.21";
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }

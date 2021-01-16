@@ -16,9 +16,5 @@ public class Artymetyka {
         int int_b = Integer.parseInt(b.trim());
         return String.valueOf(int_a * int_b);
     }
-
-    public static String dodawanie(String a, String b){
-        return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
-    }
     
 }
