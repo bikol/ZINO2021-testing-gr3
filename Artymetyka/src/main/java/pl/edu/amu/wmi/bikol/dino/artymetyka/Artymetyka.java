@@ -16,7 +16,7 @@ public class Artymetyka {
     }
 
     public static String dodawanie(String a, String b){
-        return "";
+        return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
     }
     
 }
