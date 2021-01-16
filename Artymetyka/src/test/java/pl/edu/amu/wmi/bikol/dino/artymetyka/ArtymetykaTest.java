@@ -46,4 +46,13 @@ public class ArtymetykaTest {
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testMnozenie4() {
+        System.out.println("mnozenie4");
+        String a = "0.1";
+        String b = "0.1";
+        String expResult = "0.01";
+        String result = Artymetyka.mnozenie(a, b);
+        assertEquals(expResult, result);
+    }
 }
