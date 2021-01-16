@@ -14,5 +14,9 @@ public class Artymetyka {
     public static String mnozenie(String a, String b){
         return b;
     }
+
+    public static String dodawanie(String a, String b){
+        return "";
+    }
     
 }
