@@ -12,7 +12,9 @@ package pl.edu.amu.wmi.bikol.dino.artymetyka;
 public class Artymetyka {
     
     public static String mnozenie(String a, String b){
-        return b;
+        int int_a = Integer.parseInt(a.trim());
+        int int_b = Integer.parseInt(b.trim());
+        return String.valueOf(int_a * int_b);
     }
     
 }
