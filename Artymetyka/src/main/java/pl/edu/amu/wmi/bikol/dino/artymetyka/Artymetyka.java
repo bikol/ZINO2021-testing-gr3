@@ -12,13 +12,11 @@ package pl.edu.amu.wmi.bikol.dino.artymetyka;
 public class Artymetyka {
     
     public static String mnozenie(String a, String b){
-        if ("0.1".equals(a) && "0.1".equals(b)){
-            return "0.01";
-        }
-        int int_a = Integer.parseInt(a.trim());
-        int int_b = Integer.parseInt(b.trim());
-        
-        return String.valueOf(int_a * int_b);
-    
+        double double_a = Double.parseDouble(a.trim());
+        double double_b = Double.parseDouble(b.trim());
+        if(double_a * double_b == (long) (double_a * double_b))
+            return String.format("%d", (long) (double_a * double_b));
+        else
+            return String.format("%s", (double) Math.round(double_a * double_b * 100)/100);
     }
 }
