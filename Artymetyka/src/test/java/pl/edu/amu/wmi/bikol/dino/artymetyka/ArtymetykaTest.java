@@ -70,9 +70,9 @@ public class ArtymetykaTest {
     public void testMnozenie6()
     {
         System.out.println("mnozenie5");
-        String a = "3.14";
-        String b = "3.1415";
-        String expResult = "9.86431";
+        String a = "1.11";
+        String b = "-1.1";
+        String expResult = "-1.221";
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
