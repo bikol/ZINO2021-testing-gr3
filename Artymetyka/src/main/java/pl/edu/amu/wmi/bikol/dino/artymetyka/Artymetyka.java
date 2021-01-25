@@ -17,7 +17,7 @@ public class Artymetyka {
         if(double_a * double_b == (long) (double_a * double_b))
             return String.format("%d", (long) (double_a * double_b));
         else
-            return String.format("%s", (double) Math.round(double_a * double_b * 10000)/10000);
+            return String.format("%s", (double) Math.round(double_a * double_b * 1000000)/1000000);     
     }
     
 }
