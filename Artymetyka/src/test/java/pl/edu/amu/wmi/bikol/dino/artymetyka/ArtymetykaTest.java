@@ -89,7 +89,7 @@ public class ArtymetykaTest {
     
     @Test
     public void testMnozenie8() {
-    	System.out.println("mnozenie8");
+    	System.out.println("mnozenie 8");
     	String a = "";
     	String b = "";
     	String expResult =  "Blad wartosci wejscia";
