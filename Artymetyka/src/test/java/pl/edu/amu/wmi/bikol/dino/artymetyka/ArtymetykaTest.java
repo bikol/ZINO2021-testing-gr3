@@ -51,7 +51,7 @@ public class ArtymetykaTest {
         System.out.println("mnozenie8");
         String a = "125";
         String b = "125";
-        String expResult = "";
+        String expResult = "15625";
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
