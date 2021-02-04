@@ -90,8 +90,8 @@ public class ArtymetykaTest {
     public void testMnozenie8(){
         System.out.println("mnozenie8");
         String a = "-125.4";
-        String b = "1.5/2";
-        String expResult = "-376.2";
+        String b = "1/2";
+        String expResult = "-62.7";
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
