@@ -29,8 +29,6 @@ public class Artymetyka {
             return String.format("%s", (double)x*y);
             
         }
-<<<<<<< Updated upstream
-=======
         else if(b.indexOf('/')!=-1)
         {
 
@@ -45,7 +43,6 @@ public class Artymetyka {
             double y = x2/y2;
             return String.format("%s", (double)x*y);       
         }
->>>>>>> Stashed changes
         else{
         double double_a = Double.parseDouble(a.trim());
         double double_b = Double.parseDouble(b.trim());
