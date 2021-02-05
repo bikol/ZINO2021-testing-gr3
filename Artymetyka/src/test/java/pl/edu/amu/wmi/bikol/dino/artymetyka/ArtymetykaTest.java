@@ -86,7 +86,7 @@ public class ArtymetykaTest {
         String result = Artymetyka.mnozenie(a, b);
         assertEquals(expResult, result);
     }
-     @Test
+    @Test
     public void testMnozenie8(){
         System.out.println("mnozenie8");
         String a = "4";
