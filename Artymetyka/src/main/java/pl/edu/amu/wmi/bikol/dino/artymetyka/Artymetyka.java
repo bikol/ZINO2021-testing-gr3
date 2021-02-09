@@ -12,7 +12,7 @@ package pl.edu.amu.wmi.bikol.dino.artymetyka;
 public class Artymetyka {
     
     public static String mnozenie(String a, String b){
-        if(a.indexOf('/')!=-1 || (b.indexOf('/')!=-1))
+        if(a.indexOf('/')!=-1 && (b.indexOf('/')!=-1))
         {
             char a1 = a.charAt(0);
             char a2 = a.charAt(2);
@@ -24,14 +24,12 @@ public class Artymetyka {
             
             double x2 = (double) Character.digit(b1, 10);
             double y2 = (double) Character.digit(b2, 10);
-            
             double x = x1/y1;
             double y = x2/y2;
-         
             return String.format("%s", (double)x*y);
             
         }
-		else if(b.indexOf('/')!=-1)
+        else if(b.indexOf('/')!=-1)
         {
 
             char b1 = b.charAt(0);
