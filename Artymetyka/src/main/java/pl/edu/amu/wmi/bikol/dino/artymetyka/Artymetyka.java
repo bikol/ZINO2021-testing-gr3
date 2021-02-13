@@ -15,6 +15,7 @@ public class Artymetyka {
         if(a.equals("3/1")){
             return "3";
         }
+      
         if(a.indexOf('/')!=-1 || (b.indexOf('/')!=-1))
         {
             char a1 = a.charAt(0);
