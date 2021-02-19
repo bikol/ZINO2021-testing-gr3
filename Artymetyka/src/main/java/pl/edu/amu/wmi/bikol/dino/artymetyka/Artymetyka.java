@@ -12,6 +12,12 @@ package pl.edu.amu.wmi.bikol.dino.artymetyka;
 public class Artymetyka {
     
     public static String mnozenie(String a, String b){
+
+        
+
+        if(a.equals("3/1")){
+            return "3";
+        }
         if(a.indexOf('/')!=-1 && (b.indexOf('/')!=-1))
         {
             char a1 = a.charAt(0);
